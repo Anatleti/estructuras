@@ -7,28 +7,21 @@
         <a-ssets>
         <img id="parquet" src="parquet.jpg">
         <img id="pared" src="pared.jpg">
-        <img id="cielo" src="cielo_1.jpg">
         <img id="techo" src="techo.jpg">
         <a-asset-item id="mesa" src="mesa.glb"></a-asset-item>
-        <a-asset-item id="rota" src="rota.glb"></a-asset-item>
-        
         <a-asset-item id="giratoria" src="giratoria.glb"></a-asset-item>
         <a-asset-item id="grua" src="grua.glb"></a-asset-item>
         <a-asset-item id="torre" src="torre.glb"></a-asset-item>
         <img id="cielo" src="fondo360.jpg">
         </a-ssets>
-    <a-box position="0 0 -5" rotation="90 0 0" width="10" height="5" depth="0.1" src="#parquet"></a-box> 
-    <!--suelo segunda habitación-->    
-    <a-box position="5 0 -5" rotation="90 0 0" width="5" height="5" depth="0.1" src="#parquet"></a-box> 
-<!--techos -->
-    <a-box position="0 2.9 -5" rotation="90 0 0" width="10" height="5" depth="0.1" src="#techo"></a-box> 
-    <a-box position="5 2.9 -5" rotation="90 0 0" width="5" height="5" depth="0.1" src="#techo"></a-box>    
-<!--segunda-->  
-    <a-box position="0 1.5 -7.5" rotation="0 0 0" width="10" height="3" depth="0.1" src="#pared"></a-box>      
+    <a-box position="0 0 0" rotation="90 0 0" width="10" height="5" depth="0.1" src="#parquet"></a-box>      
+    <a-box position="0 2.9 0" rotation="90 0 0" width="10" height="5" depth="0.1" src="#techo"></a-box>      
+<!--segunda-->
+    <a-box position="0 1.5 -2.5" rotation="0 0 0" width="10" height="3" depth="0.1" src="#pared"></a-box>      
           <!-- acceso -->
-   <a-box position="-2.75 1.5 -2.5 " rotation="0 0 0" width="4.5" height="3" depth="0.1" src="#pared"></a-box>
-    <a-box position="2.75 1.5 -2.5 " rotation="0 0 0" width="4.5" height="3" depth="0.1" src="#pared">
-    <a-box position="-2.75 1 0 " rotation="0 0 0" width="1" height="1" depth="0.1" src="#pared"></a-box>
+   <a-box position="-2.75 1.5 2.5 " rotation="0 0 0" width="4.5" height="3" depth="0.1" src="#pared"></a-box>
+    <a-box position="2.75 1.5 2.5 " rotation="0 0 0" width="4.5" height="3" depth="0.1" src="#pared">
+    <a-box position="-2.75 1 5 " rotation="0 0 0" width="1" height="1" depth="0.1" src="#pared"></a-box>
     </a-box>
 <!-- ventana -->
     <a-box position="-5 1.5 -6.5 " rotation="0 90 0" width="2" height="3" depth="0.1" src="#pared"></a-box>
@@ -36,13 +29,8 @@
     <a-box position="-5 0.5 -5" rotation="0 90 0" width="2" height="1" depth="0.1" src="#pared"></a-box>
     <a-box position="-5 2.5 -5" rotation="0 90 0" width="2" height="1" depth="0.1" src="#pared"></a-box>
 
-<!--pared que une con segunda-->
-    <a-box position="5 1.5 -6.5 " rotation="0 90 0" width="2" height="3" depth="0.1" src="#pared"></a-box>
-    <a-box position="5 1.5 -3.5 " rotation="0 90 0" width="2" height="3" depth="0.1" src="#pared"></a-box>
-  <a-box position= "5 2.5 -5" rotation="0 90 0" width="2" height="1" depth="0.1" src="#pared"></a-box>
-  <!--pared exterior-->  
-    <a-box position= "7.5 1.5 -5" rotation="0 90 0" width="5" height="3" depth="0.1" src="#pared"></a-box>
 
+    <a-box position="5 1.5 -5 " rotation="0 90 0" width="5" height="3" depth="0.1" src="#pared"></a-box>
     <a-entity gltf-model="#mesa" position="4.2 0.4 -3.1" rotation="0 90 0"></a-entity> 
     <a-entity gltf-model="#giratoria" position="0 0 -5" scale="0.5 0.5 0.5">
     <a-entity gltf-model="#torre" position="0.65 0.8 -0.65" scale="15 15 15"></a-entity>
