@@ -18,6 +18,10 @@
         <a-asset-item id="margarita" src="margarita.glb"></a-asset-item>
         <a-asset-item id="monta" src="monta.glb"></a-asset-item>
         <a-asset-item id="esque" src="esqueleto.glb"></a-asset-item>
+        <a-asset-item id="vista_1" src="vista_1.glb"></a-asset-item>
+        <a-asset-item id="vista_2" src="vista_2.glb"></a-asset-item>
+        <a-asset-item id="vista_2" src="vista_2.glb"></a-asset-item>
+
 
         <img id="cielo" src="fondo360.jpg">
         </a-ssets>
@@ -55,8 +59,12 @@
     <a-box position="4.95 2.5 0 " rotation="0 90 0" width="5" height="1" depth="0.1" src="#pared"></a-box>
     <a-box position="4.95 1 1.45 " rotation="0 90 0" width="2" height="2" depth="0.1" src="#pared"></a-box>
     <a-box position="4.95 1 -1.5" rotation="0 90 0" width="2" height="2" depth="0.1" src="#pared"></a-box>
+<!--cosas segunda habitacion-->
+    <a-entity gltf-model="#mesa" position="7.4 0.5 0.2" rotation="0 0 0">
+    <a-entity gltf-model="#vista_1" position="0 0 0"></a-entity>  
+    </a-entity> 
 
-    <a-entity gltf-model="#mesa" position="7.4 0.5 0.2" rotation="0 0 0"></a-entity> 
+  <!-- cosas primera habitacion-->
     <a-entity gltf-model="#giratoria" position="0 0 0" scale="0.5 0.5 0.5" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"> 
     <a-entity gltf-model="#torre" position="0.7 0.7 -0.7" scale="10 10 10"></a-entity>
     </a-entity>
